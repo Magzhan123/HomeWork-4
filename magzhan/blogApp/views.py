@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from polls.models import HttpResponse
+#from blogApp.models import HttpResponse
 from blogApp.models import Post
 
 def postShow(request, blog_id):
